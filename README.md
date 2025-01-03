@@ -86,7 +86,9 @@ Choose "yes" for auto connect
 Once the application has opened click on the "streaming" tab and then on the icon directly above the first tick box, this will create an image.
 
 
+### Installing GNSS module ###
 
+Please refer to the following https://www.waveshare.com/wiki/L76K_GPS_Module#Working_With_Raspberry_Pi for installation of the module.
 
 
 
