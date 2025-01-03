@@ -73,7 +73,21 @@ You should see a welcome message. You will also be able to see the SSID you set 
 
 Then install SquareHSI. 
 
-Firstly download this file 
+Firstly download this file and copy it in to the documents folder
+
+https://github.com/Hyperspec-01/dotech.us_Deploy/blob/master/calibSquareHSI_Beta_1.AppImage
+
+Now connect to the WiFi you created in the previous step
+
+Now double click the downloaded file placed in the documents folder 
+
+Choose "yes" for auto connect
+
+Once the application has opened click on the "streaming" tab and then on the icon directly above the first tick box, this will create an image.
+
+
+
+
 
 
 
