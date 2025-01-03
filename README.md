@@ -24,7 +24,60 @@ Refer to https://github.com/Hyperspec-01/Buidl/blob/main/Install.jpg
 
 Either via connected screen or via SSH you need to access your RPI 
 
-Once accessed install
+First enable your camera 
+
+```
+raspi-config
+```
+choose "interfaces" then select "camera" and "enable" 
+
+after reboot enter these commands to check image capture and video are working
+
+```
+raspistill -o example.jpg
+```
+```
+raspivid -o videxample-h26-4
+```
+
+
+
+
+Once accessed install Hypraspcam 
+
+Obtain your IP address
+
+```
+if config
+```
+
+Install the software, where the WiFi SSID and Password are asked for you can enter anything here but remember what you entered
+```
+sudo apt-get update
+
+sudo git clone https://github.com/Hyperspec-01/HypRaspCam
+
+cd HypRaspCam/
+
+sudo chmod a+x install.sh
+
+sudo ./install.sh
+```
+After reboot run 
+
+```
+sudo /etc/init.d/HypRaspCam stop
+sudo /etc/init.d/HypRaspCam start
+```
+You should see a welcome message. You will also be able to see the SSID you set as an available WiFi Network on your phone or computer.
+
+Then install SquareHSI. 
+
+Firstly download this file 
+
+
+
+
 
 
 
